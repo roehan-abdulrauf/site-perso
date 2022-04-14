@@ -647,7 +647,7 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="title-box-2">
-                        <h5 class="title-left">Contacter Moi</h5>
+                        <h5 class="title-left">Contactez Moi</h5>
                       </div>
                       <div>
                         <form
@@ -743,10 +743,10 @@
                               message.match(/\S/)
                             ) {
                               document.getElementById("errorname").innerHTML =
-                                "Votre message a bien été envoyer. Merci!";
+                                "Votre message a bien été envoyé. Merci!";
                             } else {
                               document.getElementById("errorname").innerHTML =
-                                "Votre message n'a pas pue etre envoyer veuillez réessayer. Merci!";
+                                "Votre message n'a pas pu être envoyé veuillez réessayer. Merci!";
                             }
                           }
                         </script>
